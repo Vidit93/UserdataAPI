@@ -22,8 +22,8 @@ router.get('/:id', async(req,res)=>{
 
 router.post('/', async(req,res)=>{
     const users = new User({
-         name:req.body.c_name,
-         number:req.body.c_number,
+         name:req.body.name,
+         number:req.body.number,
          e_mail:req.body.e_mail,
          pass:req.body.pass,
          cpass:req.body.cpass
